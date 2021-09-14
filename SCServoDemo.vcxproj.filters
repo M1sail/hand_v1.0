@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SCServo">
+      <UniqueIdentifier>{4717399a-75e0-40f7-a8df-1ba02d58440e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="程序">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>程序</Filter>
+    </ClCompile>
+    <ClCompile Include="SCServo\SCComm.cpp">
+      <Filter>SCServo</Filter>
+    </ClCompile>
+    <ClCompile Include="SCServo\SCS.cpp">
+      <Filter>SCServo</Filter>
+    </ClCompile>
+    <ClCompile Include="SCServo\SCSCL.cpp">
+      <Filter>SCServo</Filter>
+    </ClCompile>
+    <ClCompile Include="SCServo\SCSerial.cpp">
+      <Filter>SCServo</Filter>
+    </ClCompile>
+    <ClCompile Include="SCServo\SMSBL.cpp">
+      <Filter>SCServo</Filter>
+    </ClCompile>
+    <ClCompile Include="SCServo\SMSCL.cpp">
+      <Filter>SCServo</Filter>
+    </ClCompile>
+    <ClCompile Include="hand_v1.0.cpp">
+      <Filter>程序</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>程序</Filter>
+    </ClInclude>
+    <ClInclude Include="SCServo\INST.h">
+      <Filter>SCServo</Filter>
+    </ClInclude>
+    <ClInclude Include="SCServo\SCComm.h">
+      <Filter>SCServo</Filter>
+    </ClInclude>
+    <ClInclude Include="SCServo\SCS.h">
+      <Filter>SCServo</Filter>
+    </ClInclude>
+    <ClInclude Include="SCServo\SCSCL.h">
+      <Filter>SCServo</Filter>
+    </ClInclude>
+    <ClInclude Include="SCServo\SCSerial.h">
+      <Filter>SCServo</Filter>
+    </ClInclude>
+    <ClInclude Include="SCServo\SCServo.h">
+      <Filter>SCServo</Filter>
+    </ClInclude>
+    <ClInclude Include="SCServo\SMSBL.h">
+      <Filter>SCServo</Filter>
+    </ClInclude>
+    <ClInclude Include="SCServo\SMSCL.h">
+      <Filter>SCServo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
